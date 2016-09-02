@@ -9,7 +9,7 @@ url='http://macslow.org'
 license=('GPL')
 depends=('libglade' 'librsvg')
 makedepends=('intltool')
-source=("http://ftp.de.debian.org/debian/pool/main/c/cairo-clock/${pkgname}_${pkgver}.orig.tar.gz"
+source=("./${pkgname}_${pkgver}.orig.tar.gz"
         'cairo-clock.patch')
 md5sums=('78e5b3aa3492aa6c182eaacae63a7c03'
          'a2ec378bf79dfb9a1b1418d7b2d341ff')
